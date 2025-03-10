@@ -12,7 +12,7 @@ import pytorch_nn
 input_size = 28 * 28
 output_size = 10
 
-epochs = 100
+epochs = 50
 learning_rates = [0.01, 0.001, 0.0001, 0.00001]
 activation_functions = {
     "ReLU": nn.ReLU(),

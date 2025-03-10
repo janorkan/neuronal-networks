@@ -16,6 +16,8 @@ class NN(nn.Module):
             self.activation_fn,
             nn.Linear(512, 512),
             self.activation_fn,
+            nn.Linear(512, 512),
+            self.activation_fn,
             nn.Linear(512, output_size),
             self.activation_fn,
         )
